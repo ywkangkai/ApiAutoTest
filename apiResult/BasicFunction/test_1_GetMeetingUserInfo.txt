@@ -1,0 +1,2295 @@
+2020-08-15 15:11:34.972616 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"7dd74c3b88c6477bb80312b19f743be2"}}
+
+2020-08-15 15:11:35.046616 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"66f58bc0e1a14a6c95b4f481f6ae0d68","name":"苏亮","showOrder":135,"meetingDeptId":"47f761cab44e4d3483748cab3bf79a74","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"594faf75db6f4b21ad08b5ee80cf367c","password":"","pwdStatus":false}]}
+
+2020-08-15 15:11:35.118616 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"d4595e7d42364fefa5952f36485bf739","name":"杨龙","showOrder":136,"meetingDeptId":"47f761cab44e4d3483748cab3bf79a74","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"c46c79a4c7ac4ef5bf98a29240bd21a0","password":"","pwdStatus":false}]}
+
+2020-08-15 15:18:38.397616 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"debd9b8d361f4b93861f2b0295f7144d"}}
+
+2020-08-15 15:18:38.490616 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"17182ff96108445db4a0081144af65ee","name":"苏建华","showOrder":230,"meetingDeptId":"47f761cab44e4d3483748cab3bf79a74","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"a87b0b5d22b545549d69ef8a1abce967","password":"","pwdStatus":false}]}
+
+2020-08-15 15:18:38.575616 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"c7e4df854eac4845964e194073e38c00","name":"蔡丹","showOrder":231,"meetingDeptId":"47f761cab44e4d3483748cab3bf79a74","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"bd02cfe7fa1a4f7480795720af96c384","password":"","pwdStatus":false}]}
+
+2020-08-15 15:23:14.541616 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"17182ff96108445db4a0081144af65ee","personName":"苏建华","personOrder":"102"},{"personId":"c7e4df854eac4845964e194073e38c00","personName":"蔡丹","personOrder":"103"}]}
+
+2020-08-15 15:23:14.597616 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"17182ff96108445db4a0081144af65ee","personName":"苏建华","personOrder":"102"}]}
+
+2020-08-15 15:23:14.707616 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-08-15 15:23:14.780616 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"17182ff96108445db4a0081144af65ee","personName":"苏建华","personOrder":"102"}]}
+
+2020-08-15 15:23:15.032616 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-08-15 15:23:15.132616 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"17182ff96108445db4a0081144af65ee","personName":"苏建华","personOrder":"102"},{"personId":"c7e4df854eac4845964e194073e38c00","personName":"蔡丹","personOrder":"103"}]}
+
+2020-08-15 15:23:15.426616 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-08-15 15:23:15.496616 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-08-15 15:23:15.588616 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"17182ff96108445db4a0081144af65ee","personName":"苏建华","personOrder":"102"},{"personId":"c7e4df854eac4845964e194073e38c00","personName":"蔡丹","personOrder":"103"}]}
+
+2020-08-17 19:12:09.232905 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"0137429c9b0d4002911abba44eed4b79"}}
+
+2020-08-17 19:12:09.338905 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"01302e83c23c4d57bc37d73153194208","name":"文坤","showOrder":181,"meetingDeptId":"47f761cab44e4d3483748cab3bf79a74","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"facca506d7ad4c6489da46c1fa276f9b","password":"","pwdStatus":false}]}
+
+2020-08-17 19:12:09.405905 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"a318a01850f74a4c8bf4405cb693db47","name":"徐波","showOrder":182,"meetingDeptId":"47f761cab44e4d3483748cab3bf79a74","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"d41aacecac8544418d66de637346a8ab","password":"","pwdStatus":false}]}
+
+2020-08-17 19:16:08.257905 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"01302e83c23c4d57bc37d73153194208","personName":"文坤","personOrder":"14"},{"personId":"a318a01850f74a4c8bf4405cb693db47","personName":"徐波","personOrder":"15"}]}
+
+2020-08-17 19:16:08.304905 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"01302e83c23c4d57bc37d73153194208","personName":"文坤","personOrder":"14"}]}
+
+2020-08-17 19:16:08.358905 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-08-17 19:16:08.415905 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"01302e83c23c4d57bc37d73153194208","personName":"文坤","personOrder":"14"}]}
+
+2020-08-17 19:16:08.670905 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-08-17 19:16:08.729905 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"01302e83c23c4d57bc37d73153194208","personName":"文坤","personOrder":"14"},{"personId":"a318a01850f74a4c8bf4405cb693db47","personName":"徐波","personOrder":"15"}]}
+
+2020-08-17 19:16:08.919905 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-08-17 19:16:08.967905 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-08-17 19:16:09.024905 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"01302e83c23c4d57bc37d73153194208","personName":"文坤","personOrder":"14"},{"personId":"a318a01850f74a4c8bf4405cb693db47","personName":"徐波","personOrder":"15"}]}
+
+2020-08-17 19:37:36.961905 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"e88f4ce880ff4ebebc1195fe13b7647e"}}
+
+2020-08-17 19:37:37.050905 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"60fe5e4e37b14e87b52e5ba39070b13d","name":"周芳","showOrder":93,"meetingDeptId":"47f761cab44e4d3483748cab3bf79a74","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"ff7568d673c146ddac23aa06382f78c8","password":"","pwdStatus":false}]}
+
+2020-08-17 19:37:37.128905 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"3896f8f2035b4fe4a5140fbb63920bff","name":"李桂香","showOrder":94,"meetingDeptId":"47f761cab44e4d3483748cab3bf79a74","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"bcfe598d2c874d68b72a9b54927e5565","password":"","pwdStatus":false}]}
+
+2020-08-17 19:41:04.571905 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"60fe5e4e37b14e87b52e5ba39070b13d","personName":"周芳","personOrder":"1"},{"personId":"3896f8f2035b4fe4a5140fbb63920bff","personName":"李桂香","personOrder":"2"}]}
+
+2020-08-17 19:41:04.612905 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"60fe5e4e37b14e87b52e5ba39070b13d","personName":"周芳","personOrder":"1"}]}
+
+2020-08-17 19:41:04.688905 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-08-17 19:41:04.756905 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"60fe5e4e37b14e87b52e5ba39070b13d","personName":"周芳","personOrder":"1"}]}
+
+2020-08-17 19:41:04.963905 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-08-17 19:41:05.032905 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"60fe5e4e37b14e87b52e5ba39070b13d","personName":"周芳","personOrder":"1"},{"personId":"3896f8f2035b4fe4a5140fbb63920bff","personName":"李桂香","personOrder":"2"}]}
+
+2020-08-17 19:41:05.214905 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-08-17 19:41:05.260905 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-08-17 19:41:05.308905 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"60fe5e4e37b14e87b52e5ba39070b13d","personName":"周芳","personOrder":"1"},{"personId":"3896f8f2035b4fe4a5140fbb63920bff","personName":"李桂香","personOrder":"2"}]}
+
+2020-08-18 19:17:31.718905 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"f4623cb8c18e462180cf0dc2159e030e"}}
+
+2020-08-18 19:17:31.807905 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"e14a8e6da6864650a8d4ea525c7e5905","name":"韩秀英","showOrder":79,"meetingDeptId":"47f761cab44e4d3483748cab3bf79a74","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"80a466a3b6fb41f9badd808d6580d781","password":"","pwdStatus":false}]}
+
+2020-08-18 19:17:31.899905 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"ac6c4b37a8c144e19fc8459012ab6f00","name":"胡玉英","showOrder":80,"meetingDeptId":"47f761cab44e4d3483748cab3bf79a74","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"2f08fd755d5247e9b23738284d9e6332","password":"","pwdStatus":false}]}
+
+2020-08-18 19:21:22.918905 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"e14a8e6da6864650a8d4ea525c7e5905","personName":"韩秀英","personOrder":"1"},{"personId":"ac6c4b37a8c144e19fc8459012ab6f00","personName":"胡玉英","personOrder":"2"}]}
+
+2020-08-18 19:21:22.996905 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"e14a8e6da6864650a8d4ea525c7e5905","personName":"韩秀英","personOrder":"1"}]}
+
+2020-08-18 19:21:23.098905 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-08-18 19:21:23.158905 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"e14a8e6da6864650a8d4ea525c7e5905","personName":"韩秀英","personOrder":"1"}]}
+
+2020-08-18 19:21:23.459905 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-08-18 19:21:23.528905 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"e14a8e6da6864650a8d4ea525c7e5905","personName":"韩秀英","personOrder":"1"},{"personId":"ac6c4b37a8c144e19fc8459012ab6f00","personName":"胡玉英","personOrder":"2"}]}
+
+2020-08-18 19:21:23.723905 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-08-18 19:21:23.778905 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-08-18 19:21:23.838905 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"e14a8e6da6864650a8d4ea525c7e5905","personName":"韩秀英","personOrder":"1"},{"personId":"ac6c4b37a8c144e19fc8459012ab6f00","personName":"胡玉英","personOrder":"2"}]}
+
+2020-08-20 09:41:08.028905 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"f5775589241d4634a728b02204f71597"}}
+
+2020-08-20 09:41:08.111905 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"cf36f7161d0c4e2eb3f0a925bedce0ba","name":"沈兵","showOrder":69,"meetingDeptId":"de721bb9f48848968d5741ece4b165ae","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"6a21b504ee004d84b9c07d35e5f89cc6","password":"","pwdStatus":false}]}
+
+2020-08-20 09:41:08.181905 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"360a1554bfc346ce88fae5356276a3d6","name":"刘小红","showOrder":70,"meetingDeptId":"de721bb9f48848968d5741ece4b165ae","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"6b867a097f3142b1b8acdef96bfbe9b1","password":"","pwdStatus":false}]}
+
+2020-08-20 09:44:59.350905 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"cf36f7161d0c4e2eb3f0a925bedce0ba","personName":"沈兵","personOrder":"1"},{"personId":"360a1554bfc346ce88fae5356276a3d6","personName":"刘小红","personOrder":"2"}]}
+
+2020-08-20 09:44:59.408905 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"cf36f7161d0c4e2eb3f0a925bedce0ba","personName":"沈兵","personOrder":"1"}]}
+
+2020-08-20 09:44:59.460905 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-08-20 09:44:59.517905 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"cf36f7161d0c4e2eb3f0a925bedce0ba","personName":"沈兵","personOrder":"1"}]}
+
+2020-08-20 09:44:59.765905 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-08-20 09:44:59.827905 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"cf36f7161d0c4e2eb3f0a925bedce0ba","personName":"沈兵","personOrder":"1"},{"personId":"360a1554bfc346ce88fae5356276a3d6","personName":"刘小红","personOrder":"2"}]}
+
+2020-08-20 09:45:00.052905 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-08-20 09:45:00.102905 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-08-20 09:45:00.157905 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"cf36f7161d0c4e2eb3f0a925bedce0ba","personName":"沈兵","personOrder":"1"},{"personId":"360a1554bfc346ce88fae5356276a3d6","personName":"刘小红","personOrder":"2"}]}
+
+2020-08-24 09:13:41.491000 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"0525e620f48f47e39fb8aec72cee6e9c"}}
+
+2020-08-24 09:13:41.595000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"d88f1125d6974339aeee28a5648cb420","name":"高成","showOrder":83,"meetingDeptId":"de721bb9f48848968d5741ece4b165ae","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"e25f5a2adeb14a37ab5f9e0474045c24","password":"","pwdStatus":false}]}
+
+2020-08-24 09:13:41.686000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"1716410162634bea93e6737b009a2eb8","name":"费淑珍","showOrder":84,"meetingDeptId":"de721bb9f48848968d5741ece4b165ae","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"ef7a21b4ef374053a82e493a212497c5","password":"","pwdStatus":false}]}
+
+2020-08-24 09:17:33.669000 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"d88f1125d6974339aeee28a5648cb420","personName":"高成","personOrder":"1"},{"personId":"1716410162634bea93e6737b009a2eb8","personName":"费淑珍","personOrder":"2"}]}
+
+2020-08-24 09:17:33.731000 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"d88f1125d6974339aeee28a5648cb420","personName":"高成","personOrder":"1"}]}
+
+2020-08-24 09:17:33.794000 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-08-24 09:17:33.850000 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"d88f1125d6974339aeee28a5648cb420","personName":"高成","personOrder":"1"}]}
+
+2020-08-24 09:17:34.096000 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-08-24 09:17:34.158000 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"d88f1125d6974339aeee28a5648cb420","personName":"高成","personOrder":"1"},{"personId":"1716410162634bea93e6737b009a2eb8","personName":"费淑珍","personOrder":"2"}]}
+
+2020-08-24 09:17:34.325000 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-08-24 09:17:34.398000 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-08-24 09:17:34.473000 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"d88f1125d6974339aeee28a5648cb420","personName":"高成","personOrder":"1"},{"personId":"1716410162634bea93e6737b009a2eb8","personName":"费淑珍","personOrder":"2"}]}
+
+2020-08-25 08:41:09.138000 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"8474a8e17bf64836a2bec4a22f8dd44b"}}
+
+2020-08-25 08:41:09.233000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"adf520bab4ae4c7998b40d5f4f6ee8dd","name":"申静","showOrder":81,"meetingDeptId":"1","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"84c908bec2c74f69868f1cb2fe8b1269","password":"","pwdStatus":false}]}
+
+2020-08-25 08:41:09.321000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"7ecf9e1afed04fc0954af660e893f45c","name":"耿静","showOrder":82,"meetingDeptId":"1","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"b401ebff3ba2423aa1a4629481d84182","password":"","pwdStatus":false}]}
+
+2020-08-25 08:45:05.017000 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"adf520bab4ae4c7998b40d5f4f6ee8dd","personName":"申静","personOrder":"2"},{"personId":"7ecf9e1afed04fc0954af660e893f45c","personName":"耿静","personOrder":"3"}]}
+
+2020-08-25 08:45:05.098000 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"adf520bab4ae4c7998b40d5f4f6ee8dd","personName":"申静","personOrder":"2"}]}
+
+2020-08-25 08:45:05.236000 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-08-25 08:45:05.321000 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"adf520bab4ae4c7998b40d5f4f6ee8dd","personName":"申静","personOrder":"2"}]}
+
+2020-08-25 08:45:05.602000 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-08-25 08:45:05.689000 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"adf520bab4ae4c7998b40d5f4f6ee8dd","personName":"申静","personOrder":"2"},{"personId":"7ecf9e1afed04fc0954af660e893f45c","personName":"耿静","personOrder":"3"}]}
+
+2020-08-25 08:45:05.901000 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-08-25 08:45:05.984000 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-08-25 08:45:06.060000 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"adf520bab4ae4c7998b40d5f4f6ee8dd","personName":"申静","personOrder":"2"},{"personId":"7ecf9e1afed04fc0954af660e893f45c","personName":"耿静","personOrder":"3"}]}
+
+2020-08-25 09:30:03.688000 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"ba49e95190e74cf5a4b75f53e45981e8"}}
+
+2020-08-25 09:30:03.750000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"59cbec738f3e496195cc26e38e9a5c2c","name":"鞠伟","showOrder":79,"meetingDeptId":"de721bb9f48848968d5741ece4b165ae","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"a94c9a0a3ca04cb590e2b60498299e92","password":"","pwdStatus":false}]}
+
+2020-08-25 09:30:03.806000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"217d1e9a4e174ed59c2dc8ce920a22b4","name":"莫敏","showOrder":80,"meetingDeptId":"de721bb9f48848968d5741ece4b165ae","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"8fb6fe6209b8483fabe1f74b0973665b","password":"","pwdStatus":false}]}
+
+2020-08-25 09:33:57.690000 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"59cbec738f3e496195cc26e38e9a5c2c","personName":"鞠伟","personOrder":"1"},{"personId":"217d1e9a4e174ed59c2dc8ce920a22b4","personName":"莫敏","personOrder":"2"}]}
+
+2020-08-25 09:33:57.772000 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"59cbec738f3e496195cc26e38e9a5c2c","personName":"鞠伟","personOrder":"1"}]}
+
+2020-08-25 09:33:57.878000 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-08-25 09:33:57.947000 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"59cbec738f3e496195cc26e38e9a5c2c","personName":"鞠伟","personOrder":"1"}]}
+
+2020-08-25 09:33:58.189000 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-08-25 09:33:58.269000 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"59cbec738f3e496195cc26e38e9a5c2c","personName":"鞠伟","personOrder":"1"},{"personId":"217d1e9a4e174ed59c2dc8ce920a22b4","personName":"莫敏","personOrder":"2"}]}
+
+2020-08-25 09:33:58.486000 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-08-25 09:33:58.538000 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-08-25 09:33:58.590000 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"59cbec738f3e496195cc26e38e9a5c2c","personName":"鞠伟","personOrder":"1"},{"personId":"217d1e9a4e174ed59c2dc8ce920a22b4","personName":"莫敏","personOrder":"2"}]}
+
+2020-08-26 19:14:01.542500 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"8b2be51ba5194c80a14ccfb46aca5130"}}
+
+2020-08-26 19:14:01.594500 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"9c5d933e45ad4d898277cf13861e52dd","name":"孙桂荣","showOrder":116,"meetingDeptId":"1","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"30a60b9d8cfd4c3b9821785dce77fb7e","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-08-26 19:14:01.644000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"41f7110dd52e4ca78e15dab2d5587484","name":"王玉梅","showOrder":117,"meetingDeptId":"1","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"8df161a489a6483797bc261fe13229bf","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-08-26 19:17:36.929500 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"9c5d933e45ad4d898277cf13861e52dd","personName":"孙桂荣","personOrder":"1"},{"personId":"41f7110dd52e4ca78e15dab2d5587484","personName":"王玉梅","personOrder":"2"}]}
+
+2020-08-26 19:17:36.975500 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"9c5d933e45ad4d898277cf13861e52dd","personName":"孙桂荣","personOrder":"1"}]}
+
+2020-08-26 19:17:37.028000 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-08-26 19:17:37.081500 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"9c5d933e45ad4d898277cf13861e52dd","personName":"孙桂荣","personOrder":"1"}]}
+
+2020-08-26 19:17:37.298500 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-08-26 19:17:37.353500 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"9c5d933e45ad4d898277cf13861e52dd","personName":"孙桂荣","personOrder":"1"},{"personId":"41f7110dd52e4ca78e15dab2d5587484","personName":"王玉梅","personOrder":"2"}]}
+
+2020-08-26 19:17:37.509500 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-08-26 19:17:37.573000 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-08-26 19:17:37.630000 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"9c5d933e45ad4d898277cf13861e52dd","personName":"孙桂荣","personOrder":"1"},{"personId":"41f7110dd52e4ca78e15dab2d5587484","personName":"王玉梅","personOrder":"2"}]}
+
+2020-08-27 19:14:09.400500 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"455da8fe4ff0465aa8a166d373b8a4a2"}}
+
+2020-08-27 19:14:09.472000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"5d4096c1186d4b22a036f697780276c8","name":"管坤","showOrder":72,"meetingDeptId":"1","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"7e290f05c1cf4ec688b9b6cb5907f9ab","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-08-27 19:14:09.529500 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"3f6a9c780dc9443a874137a5d235357f","name":"沈红梅","showOrder":73,"meetingDeptId":"1","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"2b69d717f12e41479bd5e4ca04f7e667","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-08-27 19:17:45.730500 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"5d4096c1186d4b22a036f697780276c8","personName":"管坤","personOrder":"1"},{"personId":"3f6a9c780dc9443a874137a5d235357f","personName":"沈红梅","personOrder":"2"}]}
+
+2020-08-27 19:17:45.786500 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"5d4096c1186d4b22a036f697780276c8","personName":"管坤","personOrder":"1"}]}
+
+2020-08-27 19:17:45.885000 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-08-27 19:17:45.941000 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"5d4096c1186d4b22a036f697780276c8","personName":"管坤","personOrder":"1"}]}
+
+2020-08-27 19:17:46.123000 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-08-27 19:17:46.178000 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"5d4096c1186d4b22a036f697780276c8","personName":"管坤","personOrder":"1"},{"personId":"3f6a9c780dc9443a874137a5d235357f","personName":"沈红梅","personOrder":"2"}]}
+
+2020-08-27 19:17:46.378500 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-08-27 19:17:46.439500 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-08-27 19:17:46.504000 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"5d4096c1186d4b22a036f697780276c8","personName":"管坤","personOrder":"1"},{"personId":"3f6a9c780dc9443a874137a5d235357f","personName":"沈红梅","personOrder":"2"}]}
+
+2020-09-01 09:44:14.494800 创建一个会议并获取会议id
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <title>安全无纸化会议系统</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="Cache" content="no-cache">
+    <link rel="icon" href="styles/img/sysicon.ico" type="image/x-icon">
+
+    <link href="vendors/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="styles/fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles/login.css">
+    <script src="vendors/jquery/dist/jquery.min.js"></script>
+    <script src="vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="vendors/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="vendors/jquery-validation/dist/localization/messages_zh.js"></script>
+    <script src="vendors/jquery-cookie/jquery.cookie.js"></script>
+    <script src="vendors/jquery-backstretch/jquery.backstretch.min.js"></script>
+    <script src="vendors/sm3Hmac/utils/hex.js"></script>
+    <script src="vendors/sm3Hmac//utils/byteUtil.js"></script>
+    <script src="vendors/sm3Hmac/crypto/sm3-1.0.js"></script>
+
+</head>
+<body class="login" style="margin-top:200px">
+<div class="shade"><!--遮罩层-->
+    <div class="shadow"></div>
+    <img src="styles/img/SVG-Loaders/svg-loaders/oval.svg" alt="加载中...">
+</div>
+
+<div class="login_wrapper">
+    <div class="login_form">
+        <div class="login-banner text-center">
+            <img src="styles/img/safeLogo.png" alt="" style="position: absolute;left: -70px;top:-13px">
+            <div class="login-title" style="font-size: 32px; position: relative">安全无纸化会议系统</div>
+        </div>
+        <div class="portlet portlet-dark-blue" style="border: none">
+            <!--            <div class="portlet-heading login-heading">-->
+            <!--                <div class="portlet-title">-->
+            <!--                    密码登录-->
+            <!--                </div>-->
+            <!--                <div class="clearfix"></div>-->
+            <!--            </div>-->
+            <!--            <div class="portlet-body">-->
+            <form accept-charset="UTF-8" role="form" class="login-form" autocomplete="off">
+                <div class="form-group">
+                    <!--                        <div class="controls">-->
+                    <!--                            <i class="fa fa-user"></i>-->
+                    <input class="form-control form-username" id="username" placeholder="账号"
+                           name="username" type="text"/>
+                    <!--                        </div>-->
+                </div>
+                <div class="form-group">
+                    <!--                        <div class="controls">-->
+                    <!--                            <i class="fa fa-lock"></i>-->
+                    <input class="form-control form-password" id="password" placeholder="密码" name="password"
+                           type="password"
+                           value="" autocomplete="off"/>
+                    <!--                        </div>-->
+                </div>
+                <div class="serverBack-err-msg">
+                    <span></span>
+                </div>
+                <div class="saveCheckboxDiv">
+                    <input type="checkbox" class="saveCheckboxDiv saveCheckboxDivInput">
+                    <span style="font-weight:lighter;margin-left: 10px">记住用户名</span>
+                </div>
+                <a id="btn-login" class="btn btn-lg btn-dark-blue btn-block">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+            </form>
+
+            <!--            </div>-->
+
+            <!--        </div>-->
+        </div>
+    </div>
+</div>
+<div class="footer" style="position: fixed;bottom:20px">
+    Copyright © 2019 卫士通信息产业股份有限公司 V<span class="versionNum"></span>
+</div>
+
+<script>
+  $(document).ready(function () {
+    /*
+     Fullscreen background
+     */
+    $.backstretch([
+      // "styles/img/backgrounds/2.jpg"
+      // , "styles/img/backgrounds/3.jpg"
+      // , "styles/img/backgrounds/1.jpg"
+      "styles/img/backgrounds/loginBackgroud.png"
+    ], {duration: 0, fade: 0});
+    $.ajax({
+      url: "/actuator/info",
+      dataType: "json",
+      success: function (res) {
+        $(".versionNum").text(res.app.version);
+      },
+      error:function (e) {
+        console.log(e)
+      }
+    })
+    /*
+     Form validation
+     */
+    $("#username").val(window.localStorage.usernameSave || "");
+    $('.login-form').validate({
+      errorElement: 'label', //default input error message container
+      errorClass: 'help-inline', // default input error message class
+      focusInvalid: false, // do not focus the last invalid input
+      rules: {
+        username: {
+          required: true
+        },
+        password: {
+          required: true
+        },
+
+        messages: {
+          username: {
+            required: "用户名为空"
+          },
+          password: {
+            required: "密码为空"
+          }
+        },
+
+        highlight: function (element) { // hightlight error inputs
+          $(element).closest('.form-control').addClass("error-input")
+        },
+
+        success: function (label) {
+          $(label).prev('.form-control').removeClass("error-input");
+          label.remove();
+
+        },
+
+        errorPlacement: function (error, element) {
+          error.addClass('help-small').insertAfter(element.closest('.form-control'));
+        }
+      }
+    });
+
+    $(document).keydown(function (e) {
+      var ev = document.all ? window.event : e;
+      if (ev.keyCode == 13) {
+        if ($('.login-form').validate().form()) {
+          getUserInput();
+        }
+      }
+    });
+
+
+    $("#btn-login").bind("click", function () {
+      if ($('.login-form').validate().form()) {
+        getUserInput();
+      }
+    });
+
+    $("body > .shade > .shadow").bind("click", function () {
+      $("div#login").animate({
+        opacity: 1
+      }, 300, function () {
+        $("#btn-login").removeClass("disabled").focus();
+      });
+      $('.shade > .shadow').fadeOut(200);
+      $('.shade > img').fadeOut(200);
+    });
+
+    $(".saveCheckboxDivInput").change(function (e) {
+      if ($(e.target).prop("checked")) {
+        window.localStorage.usernameSave = $("#username").val()
+      } else {
+        window.localStorage.removeItem("usernameSave");
+        $("#username").val("")
+
+      }
+    });
+
+  });
+
+  getUserInput = function () {
+    var $username = $("#username");
+    var $password = $("#password");
+    var username, password;
+    username = $username.val();
+    password = $password.val();
+    login(username, password);
+  };
+
+  beforeLogin = function () {//显示遮罩层
+    $("html").animate({
+      opacity: 0.4
+    }, 200, function () {
+      $("#btn-login").addClass("disabled").blur();
+    });
+    $('.shade > .shadow').fadeIn(400);
+    $('.shade > img').fadeIn(400);
+  };
+
+  showErrorMsg = function (msg) {
+    var $serverBackMsg = $(".serverBack-err-msg");
+    $serverBackMsg.show().find("span").text(msg);
+
+    setTimeout(function () {
+      $serverBackMsg.fadeOut(2000);
+    }, 3000);
+  };
+
+  login = function (username, password) {
+    beforeLogin();
+    $.ajax({
+      url: "getUserChallageCode?account=" + encodeURIComponent(username),
+      dataType: 'json',
+      method: "POST",
+      error: function (jqXHR) {
+        if (jqXHR.status !== 200) {
+          var responseData = {
+            result: "failed",
+            reason: "服务器返回错误，请联系管理员"
+          };
+          afterLogin(responseData);
+        }
+      },
+      success: function (challenge) {
+        if (challenge.message == "success") {
+          var key = Hex.utf8StrToBytes(username + password);
+          var message = Hex.utf8StrToBytes(username + challenge.data);
+          var resultCode = btoa(bin2String(sm3Hash(sm3Calculate(key), message)));
+          $.ajax({
+            url: "signon",
+            dataType: 'json',
+            method: 'POST',
+            data: {
+              "account": username,
+              "password": resultCode
+            },
+            xhrFields: {
+              withCredentials: true
+            },
+            crossDomain: true,
+            success: function (res) {
+              if (res.result == 0) {
+                window.location.href = "index.html";
+                //    加入COOKIE
+              } else if (res.result == 301) {
+                $(document).bind("keydown", function (e) {//文档绑定键盘按下事件
+                  e = window.event || e;//解决浏览器兼容的问题
+                  if (e.keyCode == 116) {//F5按下
+                    /*e.keyCode = 0;*/
+                    return false;
+                  }
+                });
+                var responseData = {
+                  result: "failed",
+                  reason: "有管理员正在进行数据备份/恢复中，请稍后再试！"
+                };
+                afterLogin(responseData);
+              } else {
+                var responseData = {
+                  result: "failed",
+                  reason: res.message
+                };
+                afterLogin(responseData);
+              }
+            },
+            error: function (jqXHR) {
+              if (jqXHR.status !== 200) {
+                var responseData = {
+                  result: "failed",
+                  reason: "服务器返回错误，请联系管理员"
+                };
+                afterLogin(responseData);
+              }
+            }
+          })
+        }
+      }
+    });
+
+
+  };
+
+  afterLogin = function (responseData) {
+    $('.shade > .shadow').fadeOut(200);
+    $('.shade > img').fadeOut(200);
+    $("html").animate({
+      opacity: 1
+    }, 100, function () {
+      $("#btn-login").removeClass("disabled");
+      showErrorMsg(responseData.reason);
+    });
+  };
+  sm3Calculate = function (data) {
+    //var dataBy = Hex.utf8StrToBytes(text);
+    //console.log(data);
+    var sm3 = new SM3Digest();
+    sm3.update(data, 0, data.length); //数据很多的话，可以分多次update
+    var sm3Hash = sm3.doFinal(); //得到的数据是个byte数组
+    return sm3Hash;
+  };
+
+
+  sm3Hash = function (key, message) {
+    //这一步是先将输入数据转成utf-8编码的字节流，然后再转成16进制可见字符
+    // var keyReal = sm3Calculate(Hex.utf8StrToBytes(key));
+    var keyReal = key;
+    for (var i = 0; i < 32; i++) {
+      keyReal[i] ^= 0x36;
+      keyReal.push(0x36);
+    }
+    var hashS1 = sm3Calculate(keyReal.concat(message));
+    for (var i = 0; i < 64; i++) {
+      keyReal[i] ^= 0x36 ^ 0x5C;
+    }
+    var hashF = sm3Calculate(keyReal.concat(hashS1));
+    // var sm3HashHex = Hex.encode(hashF, 0, hashF.length); //编码成16进制可见字符
+    return hashF;
+  };
+
+  bin2String = function (array) {
+    return String.fromCharCode.apply(String, array);
+  }
+</script>
+</body>
+</html>
+
+
+2020-09-01 09:45:54.360800 创建一个会议并获取会议id
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <title>安全无纸化会议系统</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="Cache" content="no-cache">
+    <link rel="icon" href="styles/img/sysicon.ico" type="image/x-icon">
+
+    <link href="vendors/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="styles/fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles/login.css">
+    <script src="vendors/jquery/dist/jquery.min.js"></script>
+    <script src="vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="vendors/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="vendors/jquery-validation/dist/localization/messages_zh.js"></script>
+    <script src="vendors/jquery-cookie/jquery.cookie.js"></script>
+    <script src="vendors/jquery-backstretch/jquery.backstretch.min.js"></script>
+    <script src="vendors/sm3Hmac/utils/hex.js"></script>
+    <script src="vendors/sm3Hmac//utils/byteUtil.js"></script>
+    <script src="vendors/sm3Hmac/crypto/sm3-1.0.js"></script>
+
+</head>
+<body class="login" style="margin-top:200px">
+<div class="shade"><!--遮罩层-->
+    <div class="shadow"></div>
+    <img src="styles/img/SVG-Loaders/svg-loaders/oval.svg" alt="加载中...">
+</div>
+
+<div class="login_wrapper">
+    <div class="login_form">
+        <div class="login-banner text-center">
+            <img src="styles/img/safeLogo.png" alt="" style="position: absolute;left: -70px;top:-13px">
+            <div class="login-title" style="font-size: 32px; position: relative">安全无纸化会议系统</div>
+        </div>
+        <div class="portlet portlet-dark-blue" style="border: none">
+            <!--            <div class="portlet-heading login-heading">-->
+            <!--                <div class="portlet-title">-->
+            <!--                    密码登录-->
+            <!--                </div>-->
+            <!--                <div class="clearfix"></div>-->
+            <!--            </div>-->
+            <!--            <div class="portlet-body">-->
+            <form accept-charset="UTF-8" role="form" class="login-form" autocomplete="off">
+                <div class="form-group">
+                    <!--                        <div class="controls">-->
+                    <!--                            <i class="fa fa-user"></i>-->
+                    <input class="form-control form-username" id="username" placeholder="账号"
+                           name="username" type="text"/>
+                    <!--                        </div>-->
+                </div>
+                <div class="form-group">
+                    <!--                        <div class="controls">-->
+                    <!--                            <i class="fa fa-lock"></i>-->
+                    <input class="form-control form-password" id="password" placeholder="密码" name="password"
+                           type="password"
+                           value="" autocomplete="off"/>
+                    <!--                        </div>-->
+                </div>
+                <div class="serverBack-err-msg">
+                    <span></span>
+                </div>
+                <div class="saveCheckboxDiv">
+                    <input type="checkbox" class="saveCheckboxDiv saveCheckboxDivInput">
+                    <span style="font-weight:lighter;margin-left: 10px">记住用户名</span>
+                </div>
+                <a id="btn-login" class="btn btn-lg btn-dark-blue btn-block">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+            </form>
+
+            <!--            </div>-->
+
+            <!--        </div>-->
+        </div>
+    </div>
+</div>
+<div class="footer" style="position: fixed;bottom:20px">
+    Copyright © 2019 卫士通信息产业股份有限公司 V<span class="versionNum"></span>
+</div>
+
+<script>
+  $(document).ready(function () {
+    /*
+     Fullscreen background
+     */
+    $.backstretch([
+      // "styles/img/backgrounds/2.jpg"
+      // , "styles/img/backgrounds/3.jpg"
+      // , "styles/img/backgrounds/1.jpg"
+      "styles/img/backgrounds/loginBackgroud.png"
+    ], {duration: 0, fade: 0});
+    $.ajax({
+      url: "/actuator/info",
+      dataType: "json",
+      success: function (res) {
+        $(".versionNum").text(res.app.version);
+      },
+      error:function (e) {
+        console.log(e)
+      }
+    })
+    /*
+     Form validation
+     */
+    $("#username").val(window.localStorage.usernameSave || "");
+    $('.login-form').validate({
+      errorElement: 'label', //default input error message container
+      errorClass: 'help-inline', // default input error message class
+      focusInvalid: false, // do not focus the last invalid input
+      rules: {
+        username: {
+          required: true
+        },
+        password: {
+          required: true
+        },
+
+        messages: {
+          username: {
+            required: "用户名为空"
+          },
+          password: {
+            required: "密码为空"
+          }
+        },
+
+        highlight: function (element) { // hightlight error inputs
+          $(element).closest('.form-control').addClass("error-input")
+        },
+
+        success: function (label) {
+          $(label).prev('.form-control').removeClass("error-input");
+          label.remove();
+
+        },
+
+        errorPlacement: function (error, element) {
+          error.addClass('help-small').insertAfter(element.closest('.form-control'));
+        }
+      }
+    });
+
+    $(document).keydown(function (e) {
+      var ev = document.all ? window.event : e;
+      if (ev.keyCode == 13) {
+        if ($('.login-form').validate().form()) {
+          getUserInput();
+        }
+      }
+    });
+
+
+    $("#btn-login").bind("click", function () {
+      if ($('.login-form').validate().form()) {
+        getUserInput();
+      }
+    });
+
+    $("body > .shade > .shadow").bind("click", function () {
+      $("div#login").animate({
+        opacity: 1
+      }, 300, function () {
+        $("#btn-login").removeClass("disabled").focus();
+      });
+      $('.shade > .shadow').fadeOut(200);
+      $('.shade > img').fadeOut(200);
+    });
+
+    $(".saveCheckboxDivInput").change(function (e) {
+      if ($(e.target).prop("checked")) {
+        window.localStorage.usernameSave = $("#username").val()
+      } else {
+        window.localStorage.removeItem("usernameSave");
+        $("#username").val("")
+
+      }
+    });
+
+  });
+
+  getUserInput = function () {
+    var $username = $("#username");
+    var $password = $("#password");
+    var username, password;
+    username = $username.val();
+    password = $password.val();
+    login(username, password);
+  };
+
+  beforeLogin = function () {//显示遮罩层
+    $("html").animate({
+      opacity: 0.4
+    }, 200, function () {
+      $("#btn-login").addClass("disabled").blur();
+    });
+    $('.shade > .shadow').fadeIn(400);
+    $('.shade > img').fadeIn(400);
+  };
+
+  showErrorMsg = function (msg) {
+    var $serverBackMsg = $(".serverBack-err-msg");
+    $serverBackMsg.show().find("span").text(msg);
+
+    setTimeout(function () {
+      $serverBackMsg.fadeOut(2000);
+    }, 3000);
+  };
+
+  login = function (username, password) {
+    beforeLogin();
+    $.ajax({
+      url: "getUserChallageCode?account=" + encodeURIComponent(username),
+      dataType: 'json',
+      method: "POST",
+      error: function (jqXHR) {
+        if (jqXHR.status !== 200) {
+          var responseData = {
+            result: "failed",
+            reason: "服务器返回错误，请联系管理员"
+          };
+          afterLogin(responseData);
+        }
+      },
+      success: function (challenge) {
+        if (challenge.message == "success") {
+          var key = Hex.utf8StrToBytes(username + password);
+          var message = Hex.utf8StrToBytes(username + challenge.data);
+          var resultCode = btoa(bin2String(sm3Hash(sm3Calculate(key), message)));
+          $.ajax({
+            url: "signon",
+            dataType: 'json',
+            method: 'POST',
+            data: {
+              "account": username,
+              "password": resultCode
+            },
+            xhrFields: {
+              withCredentials: true
+            },
+            crossDomain: true,
+            success: function (res) {
+              if (res.result == 0) {
+                window.location.href = "index.html";
+                //    加入COOKIE
+              } else if (res.result == 301) {
+                $(document).bind("keydown", function (e) {//文档绑定键盘按下事件
+                  e = window.event || e;//解决浏览器兼容的问题
+                  if (e.keyCode == 116) {//F5按下
+                    /*e.keyCode = 0;*/
+                    return false;
+                  }
+                });
+                var responseData = {
+                  result: "failed",
+                  reason: "有管理员正在进行数据备份/恢复中，请稍后再试！"
+                };
+                afterLogin(responseData);
+              } else {
+                var responseData = {
+                  result: "failed",
+                  reason: res.message
+                };
+                afterLogin(responseData);
+              }
+            },
+            error: function (jqXHR) {
+              if (jqXHR.status !== 200) {
+                var responseData = {
+                  result: "failed",
+                  reason: "服务器返回错误，请联系管理员"
+                };
+                afterLogin(responseData);
+              }
+            }
+          })
+        }
+      }
+    });
+
+
+  };
+
+  afterLogin = function (responseData) {
+    $('.shade > .shadow').fadeOut(200);
+    $('.shade > img').fadeOut(200);
+    $("html").animate({
+      opacity: 1
+    }, 100, function () {
+      $("#btn-login").removeClass("disabled");
+      showErrorMsg(responseData.reason);
+    });
+  };
+  sm3Calculate = function (data) {
+    //var dataBy = Hex.utf8StrToBytes(text);
+    //console.log(data);
+    var sm3 = new SM3Digest();
+    sm3.update(data, 0, data.length); //数据很多的话，可以分多次update
+    var sm3Hash = sm3.doFinal(); //得到的数据是个byte数组
+    return sm3Hash;
+  };
+
+
+  sm3Hash = function (key, message) {
+    //这一步是先将输入数据转成utf-8编码的字节流，然后再转成16进制可见字符
+    // var keyReal = sm3Calculate(Hex.utf8StrToBytes(key));
+    var keyReal = key;
+    for (var i = 0; i < 32; i++) {
+      keyReal[i] ^= 0x36;
+      keyReal.push(0x36);
+    }
+    var hashS1 = sm3Calculate(keyReal.concat(message));
+    for (var i = 0; i < 64; i++) {
+      keyReal[i] ^= 0x36 ^ 0x5C;
+    }
+    var hashF = sm3Calculate(keyReal.concat(hashS1));
+    // var sm3HashHex = Hex.encode(hashF, 0, hashF.length); //编码成16进制可见字符
+    return hashF;
+  };
+
+  bin2String = function (array) {
+    return String.fromCharCode.apply(String, array);
+  }
+</script>
+</body>
+</html>
+
+
+2020-09-01 09:48:11.711800 创建一个会议并获取会议id
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <title>安全无纸化会议系统</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="Cache" content="no-cache">
+    <link rel="icon" href="styles/img/sysicon.ico" type="image/x-icon">
+
+    <link href="vendors/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="styles/fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles/login.css">
+    <script src="vendors/jquery/dist/jquery.min.js"></script>
+    <script src="vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="vendors/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="vendors/jquery-validation/dist/localization/messages_zh.js"></script>
+    <script src="vendors/jquery-cookie/jquery.cookie.js"></script>
+    <script src="vendors/jquery-backstretch/jquery.backstretch.min.js"></script>
+    <script src="vendors/sm3Hmac/utils/hex.js"></script>
+    <script src="vendors/sm3Hmac//utils/byteUtil.js"></script>
+    <script src="vendors/sm3Hmac/crypto/sm3-1.0.js"></script>
+
+</head>
+<body class="login" style="margin-top:200px">
+<div class="shade"><!--遮罩层-->
+    <div class="shadow"></div>
+    <img src="styles/img/SVG-Loaders/svg-loaders/oval.svg" alt="加载中...">
+</div>
+
+<div class="login_wrapper">
+    <div class="login_form">
+        <div class="login-banner text-center">
+            <img src="styles/img/safeLogo.png" alt="" style="position: absolute;left: -70px;top:-13px">
+            <div class="login-title" style="font-size: 32px; position: relative">安全无纸化会议系统</div>
+        </div>
+        <div class="portlet portlet-dark-blue" style="border: none">
+            <!--            <div class="portlet-heading login-heading">-->
+            <!--                <div class="portlet-title">-->
+            <!--                    密码登录-->
+            <!--                </div>-->
+            <!--                <div class="clearfix"></div>-->
+            <!--            </div>-->
+            <!--            <div class="portlet-body">-->
+            <form accept-charset="UTF-8" role="form" class="login-form" autocomplete="off">
+                <div class="form-group">
+                    <!--                        <div class="controls">-->
+                    <!--                            <i class="fa fa-user"></i>-->
+                    <input class="form-control form-username" id="username" placeholder="账号"
+                           name="username" type="text"/>
+                    <!--                        </div>-->
+                </div>
+                <div class="form-group">
+                    <!--                        <div class="controls">-->
+                    <!--                            <i class="fa fa-lock"></i>-->
+                    <input class="form-control form-password" id="password" placeholder="密码" name="password"
+                           type="password"
+                           value="" autocomplete="off"/>
+                    <!--                        </div>-->
+                </div>
+                <div class="serverBack-err-msg">
+                    <span></span>
+                </div>
+                <div class="saveCheckboxDiv">
+                    <input type="checkbox" class="saveCheckboxDiv saveCheckboxDivInput">
+                    <span style="font-weight:lighter;margin-left: 10px">记住用户名</span>
+                </div>
+                <a id="btn-login" class="btn btn-lg btn-dark-blue btn-block">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+            </form>
+
+            <!--            </div>-->
+
+            <!--        </div>-->
+        </div>
+    </div>
+</div>
+<div class="footer" style="position: fixed;bottom:20px">
+    Copyright © 2019 卫士通信息产业股份有限公司 V<span class="versionNum"></span>
+</div>
+
+<script>
+  $(document).ready(function () {
+    /*
+     Fullscreen background
+     */
+    $.backstretch([
+      // "styles/img/backgrounds/2.jpg"
+      // , "styles/img/backgrounds/3.jpg"
+      // , "styles/img/backgrounds/1.jpg"
+      "styles/img/backgrounds/loginBackgroud.png"
+    ], {duration: 0, fade: 0});
+    $.ajax({
+      url: "/actuator/info",
+      dataType: "json",
+      success: function (res) {
+        $(".versionNum").text(res.app.version);
+      },
+      error:function (e) {
+        console.log(e)
+      }
+    })
+    /*
+     Form validation
+     */
+    $("#username").val(window.localStorage.usernameSave || "");
+    $('.login-form').validate({
+      errorElement: 'label', //default input error message container
+      errorClass: 'help-inline', // default input error message class
+      focusInvalid: false, // do not focus the last invalid input
+      rules: {
+        username: {
+          required: true
+        },
+        password: {
+          required: true
+        },
+
+        messages: {
+          username: {
+            required: "用户名为空"
+          },
+          password: {
+            required: "密码为空"
+          }
+        },
+
+        highlight: function (element) { // hightlight error inputs
+          $(element).closest('.form-control').addClass("error-input")
+        },
+
+        success: function (label) {
+          $(label).prev('.form-control').removeClass("error-input");
+          label.remove();
+
+        },
+
+        errorPlacement: function (error, element) {
+          error.addClass('help-small').insertAfter(element.closest('.form-control'));
+        }
+      }
+    });
+
+    $(document).keydown(function (e) {
+      var ev = document.all ? window.event : e;
+      if (ev.keyCode == 13) {
+        if ($('.login-form').validate().form()) {
+          getUserInput();
+        }
+      }
+    });
+
+
+    $("#btn-login").bind("click", function () {
+      if ($('.login-form').validate().form()) {
+        getUserInput();
+      }
+    });
+
+    $("body > .shade > .shadow").bind("click", function () {
+      $("div#login").animate({
+        opacity: 1
+      }, 300, function () {
+        $("#btn-login").removeClass("disabled").focus();
+      });
+      $('.shade > .shadow').fadeOut(200);
+      $('.shade > img').fadeOut(200);
+    });
+
+    $(".saveCheckboxDivInput").change(function (e) {
+      if ($(e.target).prop("checked")) {
+        window.localStorage.usernameSave = $("#username").val()
+      } else {
+        window.localStorage.removeItem("usernameSave");
+        $("#username").val("")
+
+      }
+    });
+
+  });
+
+  getUserInput = function () {
+    var $username = $("#username");
+    var $password = $("#password");
+    var username, password;
+    username = $username.val();
+    password = $password.val();
+    login(username, password);
+  };
+
+  beforeLogin = function () {//显示遮罩层
+    $("html").animate({
+      opacity: 0.4
+    }, 200, function () {
+      $("#btn-login").addClass("disabled").blur();
+    });
+    $('.shade > .shadow').fadeIn(400);
+    $('.shade > img').fadeIn(400);
+  };
+
+  showErrorMsg = function (msg) {
+    var $serverBackMsg = $(".serverBack-err-msg");
+    $serverBackMsg.show().find("span").text(msg);
+
+    setTimeout(function () {
+      $serverBackMsg.fadeOut(2000);
+    }, 3000);
+  };
+
+  login = function (username, password) {
+    beforeLogin();
+    $.ajax({
+      url: "getUserChallageCode?account=" + encodeURIComponent(username),
+      dataType: 'json',
+      method: "POST",
+      error: function (jqXHR) {
+        if (jqXHR.status !== 200) {
+          var responseData = {
+            result: "failed",
+            reason: "服务器返回错误，请联系管理员"
+          };
+          afterLogin(responseData);
+        }
+      },
+      success: function (challenge) {
+        if (challenge.message == "success") {
+          var key = Hex.utf8StrToBytes(username + password);
+          var message = Hex.utf8StrToBytes(username + challenge.data);
+          var resultCode = btoa(bin2String(sm3Hash(sm3Calculate(key), message)));
+          $.ajax({
+            url: "signon",
+            dataType: 'json',
+            method: 'POST',
+            data: {
+              "account": username,
+              "password": resultCode
+            },
+            xhrFields: {
+              withCredentials: true
+            },
+            crossDomain: true,
+            success: function (res) {
+              if (res.result == 0) {
+                window.location.href = "index.html";
+                //    加入COOKIE
+              } else if (res.result == 301) {
+                $(document).bind("keydown", function (e) {//文档绑定键盘按下事件
+                  e = window.event || e;//解决浏览器兼容的问题
+                  if (e.keyCode == 116) {//F5按下
+                    /*e.keyCode = 0;*/
+                    return false;
+                  }
+                });
+                var responseData = {
+                  result: "failed",
+                  reason: "有管理员正在进行数据备份/恢复中，请稍后再试！"
+                };
+                afterLogin(responseData);
+              } else {
+                var responseData = {
+                  result: "failed",
+                  reason: res.message
+                };
+                afterLogin(responseData);
+              }
+            },
+            error: function (jqXHR) {
+              if (jqXHR.status !== 200) {
+                var responseData = {
+                  result: "failed",
+                  reason: "服务器返回错误，请联系管理员"
+                };
+                afterLogin(responseData);
+              }
+            }
+          })
+        }
+      }
+    });
+
+
+  };
+
+  afterLogin = function (responseData) {
+    $('.shade > .shadow').fadeOut(200);
+    $('.shade > img').fadeOut(200);
+    $("html").animate({
+      opacity: 1
+    }, 100, function () {
+      $("#btn-login").removeClass("disabled");
+      showErrorMsg(responseData.reason);
+    });
+  };
+  sm3Calculate = function (data) {
+    //var dataBy = Hex.utf8StrToBytes(text);
+    //console.log(data);
+    var sm3 = new SM3Digest();
+    sm3.update(data, 0, data.length); //数据很多的话，可以分多次update
+    var sm3Hash = sm3.doFinal(); //得到的数据是个byte数组
+    return sm3Hash;
+  };
+
+
+  sm3Hash = function (key, message) {
+    //这一步是先将输入数据转成utf-8编码的字节流，然后再转成16进制可见字符
+    // var keyReal = sm3Calculate(Hex.utf8StrToBytes(key));
+    var keyReal = key;
+    for (var i = 0; i < 32; i++) {
+      keyReal[i] ^= 0x36;
+      keyReal.push(0x36);
+    }
+    var hashS1 = sm3Calculate(keyReal.concat(message));
+    for (var i = 0; i < 64; i++) {
+      keyReal[i] ^= 0x36 ^ 0x5C;
+    }
+    var hashF = sm3Calculate(keyReal.concat(hashS1));
+    // var sm3HashHex = Hex.encode(hashF, 0, hashF.length); //编码成16进制可见字符
+    return hashF;
+  };
+
+  bin2String = function (array) {
+    return String.fromCharCode.apply(String, array);
+  }
+</script>
+</body>
+</html>
+
+
+2020-09-01 15:46:02.295800 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"80c4248be3a34539bcb6bd9a86b12fac"}}
+
+2020-09-01 15:46:02.331800 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"ea9512e168c4431181b968083db50f75","name":"郑艳","showOrder":90,"meetingDeptId":"49c81e482f1f4f0dacc461470b34375b","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"282926a0edf84d84888e3330d7e89f96","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-01 15:46:02.369800 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"427b31de365d457eb6eaba098eceefb6","name":"傅淑华","showOrder":91,"meetingDeptId":"49c81e482f1f4f0dacc461470b34375b","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"c030d7459c0f4efca238c1e25f0bf8bd","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-01 15:49:06.354800 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"ea9512e168c4431181b968083db50f75","personName":"郑艳","personOrder":"1"},{"personId":"427b31de365d457eb6eaba098eceefb6","personName":"傅淑华","personOrder":"2"}]}
+
+2020-09-01 15:49:06.400800 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"ea9512e168c4431181b968083db50f75","personName":"郑艳","personOrder":"1"}]}
+
+2020-09-01 15:49:06.539800 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-09-01 15:49:06.597800 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"ea9512e168c4431181b968083db50f75","personName":"郑艳","personOrder":"1"}]}
+
+2020-09-01 15:49:06.881800 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-09-01 15:49:06.961800 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"ea9512e168c4431181b968083db50f75","personName":"郑艳","personOrder":"1"},{"personId":"427b31de365d457eb6eaba098eceefb6","personName":"傅淑华","personOrder":"2"}]}
+
+2020-09-01 15:49:07.055800 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-09-01 15:49:07.099800 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-09-01 15:49:07.146800 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"ea9512e168c4431181b968083db50f75","personName":"郑艳","personOrder":"1"},{"personId":"427b31de365d457eb6eaba098eceefb6","personName":"傅淑华","personOrder":"2"}]}
+
+2020-09-01 16:46:35.017800 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"d900a0a09edb4e9580ce739b8f47a11d"}}
+
+2020-09-01 16:46:35.084800 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"21a8f7297ebd40cf81d404302b3df13c","name":"高磊","showOrder":77,"meetingDeptId":"49c81e482f1f4f0dacc461470b34375b","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"4710a8e39e0e4d6b9814ecbb2a125545","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-01 16:46:35.123800 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"2dad0ed076d94e8695f7201a8b7c3d1a","name":"陈峰","showOrder":78,"meetingDeptId":"49c81e482f1f4f0dacc461470b34375b","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"60baeeef9a0b4bcd87fd906bc0c2992a","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-01 16:49:38.034800 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"21a8f7297ebd40cf81d404302b3df13c","personName":"高磊","personOrder":"2"},{"personId":"2dad0ed076d94e8695f7201a8b7c3d1a","personName":"陈峰","personOrder":"3"}]}
+
+2020-09-01 16:49:38.069800 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"21a8f7297ebd40cf81d404302b3df13c","personName":"高磊","personOrder":"2"}]}
+
+2020-09-01 16:49:38.190800 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-09-01 16:49:38.269800 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"21a8f7297ebd40cf81d404302b3df13c","personName":"高磊","personOrder":"2"}]}
+
+2020-09-01 16:49:38.593800 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-09-01 16:49:38.692800 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"21a8f7297ebd40cf81d404302b3df13c","personName":"高磊","personOrder":"2"},{"personId":"2dad0ed076d94e8695f7201a8b7c3d1a","personName":"陈峰","personOrder":"3"}]}
+
+2020-09-01 16:49:38.821800 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-09-01 16:49:38.865800 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-09-01 16:49:38.911800 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"21a8f7297ebd40cf81d404302b3df13c","personName":"高磊","personOrder":"2"},{"personId":"2dad0ed076d94e8695f7201a8b7c3d1a","personName":"陈峰","personOrder":"3"}]}
+
+2020-09-02 17:23:12.986000 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"523ab0544b9d4d5fa7e6b7ed4834fc12"}}
+
+2020-09-02 17:23:13.055000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"d9a729f21bde4cf6b9c827d1bf85d3cf","name":"黄鹏","showOrder":69,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"dbf468fa0f124884bc1b2c79f69ff183","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 17:23:13.098000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"42d62f9b53b94006808f2373f2122150","name":"黄丽华","showOrder":70,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"7fba26dad85e4b778009861d4c0fde6c","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 17:29:19.085000 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"a7e938b9cb4441cc8fe6b59a08176126"}}
+
+2020-09-02 17:29:19.145000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"e7b366e96e634563ba41d011be5278c3","name":"王涛","showOrder":90,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"fea031a7083748f4a264fd0c5e45d044","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 17:29:19.189000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"6a329e984867437b8f3c9b4bcb254cdb","name":"殷英","showOrder":91,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"d4b9676396a9404086150bddc8993ff3","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 17:29:19.240000 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"e7b366e96e634563ba41d011be5278c3","personName":"王涛","personOrder":"90"},{"personId":"6a329e984867437b8f3c9b4bcb254cdb","personName":"殷英","personOrder":"91"}]}
+
+2020-09-02 17:29:19.282000 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"e7b366e96e634563ba41d011be5278c3","personName":"王涛","personOrder":"90"}]}
+
+2020-09-02 17:29:19.403000 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-09-02 17:29:19.444000 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"e7b366e96e634563ba41d011be5278c3","personName":"王涛","personOrder":"90"}]}
+
+2020-09-02 17:29:19.775000 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-09-02 17:29:19.837000 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"e7b366e96e634563ba41d011be5278c3","personName":"王涛","personOrder":"90"},{"personId":"6a329e984867437b8f3c9b4bcb254cdb","personName":"殷英","personOrder":"91"}]}
+
+2020-09-02 17:29:19.924000 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-09-02 17:29:19.959000 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-09-02 17:29:20.004000 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"e7b366e96e634563ba41d011be5278c3","personName":"王涛","personOrder":"90"},{"personId":"6a329e984867437b8f3c9b4bcb254cdb","personName":"殷英","personOrder":"91"}]}
+
+2020-09-02 17:30:31.194000 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"1dd1c12088be4cdb914fc86ddefc243b"}}
+
+2020-09-02 17:30:31.268000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"fdceaa1fc38f48448f71c6c50ec39c0a","name":"周勇","showOrder":156,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"0d6193b864d3475f88a7d6eb310822ae","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 17:30:31.309000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"7643a439ebb14f2ba14b491a0ada3fe1","name":"廖艳","showOrder":157,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"7328d4a9c1bd49169112c9059c8de710","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 17:33:37.936000 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"410b483daa21425c8dd5fdb84ac8d772"}}
+
+2020-09-02 17:33:38.026000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"b602c24d9fcc4bb1ae640e8102505cf0","name":"张桂香","showOrder":71,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"bd72eede3212472ca28e21dbb6b85ca5","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 17:33:38.068000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"e3322fc1b9b74afc84e473f8fe39c48f","name":"梁鹏","showOrder":259,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"de0642953f1147308d054bd449e61d56","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 17:35:13.780000 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"f912b208543e490f9e2c94900950385f"}}
+
+2020-09-02 17:35:13.860000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"85b96337cc4549e5bfe8bc1b0c743b99","name":"岳帆","showOrder":313,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"ab33c5fe70b4423ba3717bda380ae761","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 17:35:13.904000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"3b74e44534cf4cb8afcf9fb4468c7804","name":"谢红梅","showOrder":314,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"8f976637eec74387a86a822ad4e4e4f1","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 17:41:27.515000 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"5db713d2ffe5472a97f713049fe116a4"}}
+
+2020-09-02 17:41:27.549000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"df47685a3c4c439b8e92c1543d903ca6","name":"靳建平","showOrder":364,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"a819d6aafdfe4440afaf59076368a234","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 17:41:27.586000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"d96dcaa730d544789f69674a90ac7932","name":"伍浩","showOrder":365,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"4e4fa3816e7d4bc5aa9c5e5aee293e91","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 17:43:46.192000 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"00f40878bc07443699830919bfe16362"}}
+
+2020-09-02 17:43:46.265000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"4f4dda7f9c0241c4b6d299f4bf627e90","name":"谢伟","showOrder":417,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"51b9e4f945134d339e961388f260f93a","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 17:43:46.313000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"08b38779847b4cd78d13a57218866c90","name":"霍彬","showOrder":418,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"3279ef29c567437785654a7681793de1","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 17:45:40.833000 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"3ae1d681a788411ca68f7d34e68999d6"}}
+
+2020-09-02 17:45:40.907000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"d37d78edd1aa4816a1262257b3d7d074","name":"罗海燕","showOrder":470,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"0a1a27c94ac947588a91437a23035ba9","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 17:45:40.950000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"ae46fe91d496476aac72c70561319358","name":"邵帅","showOrder":471,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"ae4b9b8137c346279222d1604c2fb717","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 17:54:37.249000 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"b06be90d2bfc4ad1b8d1eac33c6ad74d"}}
+
+2020-09-02 17:54:37.328000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"fa2b702633f74154b2e466ac0dc5ad4f","name":"刘玉","showOrder":548,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"39d008461f36415196ccce7ef8a6befe","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 17:54:37.370000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"a8b0069526224b47b3440b46cee744a7","name":"施宁","showOrder":549,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"8bf1947b4233467ca7b8aa4cd57c8f02","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 17:56:37.853000 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"fa2b702633f74154b2e466ac0dc5ad4f","personName":"刘玉","personOrder":"509"},{"personId":"a8b0069526224b47b3440b46cee744a7","personName":"施宁","personOrder":"510"}]}
+
+2020-09-02 17:56:38.152000 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"fa2b702633f74154b2e466ac0dc5ad4f","personName":"刘玉","personOrder":"509"}]}
+
+2020-09-02 17:56:38.595000 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-09-02 17:56:38.672000 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"fa2b702633f74154b2e466ac0dc5ad4f","personName":"刘玉","personOrder":"509"}]}
+
+2020-09-02 17:56:39.351000 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-09-02 17:56:39.394000 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"fa2b702633f74154b2e466ac0dc5ad4f","personName":"刘玉","personOrder":"509"},{"personId":"a8b0069526224b47b3440b46cee744a7","personName":"施宁","personOrder":"510"}]}
+
+2020-09-02 17:56:39.476000 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-09-02 17:56:39.509000 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-09-02 17:56:39.551000 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"fa2b702633f74154b2e466ac0dc5ad4f","personName":"刘玉","personOrder":"509"},{"personId":"a8b0069526224b47b3440b46cee744a7","personName":"施宁","personOrder":"510"}]}
+
+2020-09-02 18:06:12.838000 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"77ac66c3e0274e138989108b146bc9a9"}}
+
+2020-09-02 18:06:12.940000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"dfe1ca7837a446c09621ac750e527f2f","name":"王欣","showOrder":448,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"39108331c3d14a7282dd46b6d0d91301","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 18:06:12.994000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"b9f89bc1fc1a4345b947f60708c3d578","name":"包飞","showOrder":584,"meetingDeptId":"14230f92926b4c93bb54acdaed4be186","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"50510883bfbe481fb957d43050f8a8e0","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-02 18:09:28.461000 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"dfe1ca7837a446c09621ac750e527f2f","personName":"王欣","personOrder":"347"},{"personId":"b9f89bc1fc1a4345b947f60708c3d578","personName":"包飞","personOrder":"419"}]}
+
+2020-09-02 18:09:28.503000 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"dfe1ca7837a446c09621ac750e527f2f","personName":"王欣","personOrder":"347"}]}
+
+2020-09-02 18:09:28.667000 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-09-02 18:09:28.726000 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"dfe1ca7837a446c09621ac750e527f2f","personName":"王欣","personOrder":"347"}]}
+
+2020-09-02 18:09:29.020000 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-09-02 18:09:29.083000 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"dfe1ca7837a446c09621ac750e527f2f","personName":"王欣","personOrder":"347"},{"personId":"b9f89bc1fc1a4345b947f60708c3d578","personName":"包飞","personOrder":"419"}]}
+
+2020-09-02 18:09:29.214000 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-09-02 18:09:29.254000 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-09-02 18:09:29.296000 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"dfe1ca7837a446c09621ac750e527f2f","personName":"王欣","personOrder":"347"},{"personId":"b9f89bc1fc1a4345b947f60708c3d578","personName":"包飞","personOrder":"419"}]}
+
+2020-09-07 17:16:28.185654 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"b5ab360512a547eeb7872dc4e0c8e7bf"}}
+
+2020-09-07 17:16:28.264654 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"9eb31114f9a64e04a8b7d1767127f727","name":"练帆","showOrder":76,"meetingDeptId":"ebdf976f7818421a9799163f2cf2a2e6","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"eb06ebe586274f15b1728c8ebbce2e4e","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-07 17:16:28.354654 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"6fd6a48d0afd44cf8f6e1e50228d9c25","name":"李宁","showOrder":77,"meetingDeptId":"ebdf976f7818421a9799163f2cf2a2e6","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"6290e7d4d1024045bfb97d3a85a72894","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-07 17:20:02.021654 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"9eb31114f9a64e04a8b7d1767127f727","personName":"练帆","personOrder":"1"},{"personId":"6fd6a48d0afd44cf8f6e1e50228d9c25","personName":"李宁","personOrder":"2"}]}
+
+2020-09-07 17:20:02.100654 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"9eb31114f9a64e04a8b7d1767127f727","personName":"练帆","personOrder":"1"}]}
+
+2020-09-07 17:20:02.209654 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-09-07 17:20:02.272654 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"9eb31114f9a64e04a8b7d1767127f727","personName":"练帆","personOrder":"1"}]}
+
+2020-09-07 17:20:02.543654 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-09-07 17:20:02.616654 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"9eb31114f9a64e04a8b7d1767127f727","personName":"练帆","personOrder":"1"},{"personId":"6fd6a48d0afd44cf8f6e1e50228d9c25","personName":"李宁","personOrder":"2"}]}
+
+2020-09-07 17:20:02.810654 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-09-07 17:20:02.887654 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-09-07 17:20:02.975654 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"9eb31114f9a64e04a8b7d1767127f727","personName":"练帆","personOrder":"1"},{"personId":"6fd6a48d0afd44cf8f6e1e50228d9c25","personName":"李宁","personOrder":"2"}]}
+
+2020-09-08 09:16:50.787000 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"c08f84327e874093ae0a76c29fd4af37"}}
+
+2020-09-08 09:16:50.869000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"6117659bbcd4426581f4308fb5c55076","name":"高红","showOrder":130,"meetingDeptId":"ebdf976f7818421a9799163f2cf2a2e6","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"734194c2f5244146bfc37b621bf1889d","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-08 09:16:50.956000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"098b98ec79544808973f7da00c699d7b","name":"巴玉华","showOrder":131,"meetingDeptId":"ebdf976f7818421a9799163f2cf2a2e6","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"6e937b27aece4eb1bc194dde260215af","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-08 09:16:59.682500 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"9344ec1d3e9d4bce87c773ab3b9eca59"}}
+
+2020-09-08 09:16:59.734000 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"faf6b12894df4e068b576dbefbc7df2d","name":"彭琳","showOrder":145,"meetingDeptId":"ebdf976f7818421a9799163f2cf2a2e6","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"b1031f0f5429417e8be343be082274ad","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-08 09:16:59.791500 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"5e8b1a5336cf43f2aef440b10ad41178","name":"李玲","showOrder":146,"meetingDeptId":"ebdf976f7818421a9799163f2cf2a2e6","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"ac39e289f0e149fd84771da804774e39","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-09-08 09:21:28.623500 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"faf6b12894df4e068b576dbefbc7df2d","personName":"彭琳","personOrder":"2"},{"personId":"5e8b1a5336cf43f2aef440b10ad41178","personName":"李玲","personOrder":"3"}]}
+
+2020-09-08 09:21:28.678000 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"faf6b12894df4e068b576dbefbc7df2d","personName":"彭琳","personOrder":"2"}]}
+
+2020-09-08 09:21:28.747000 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"6117659bbcd4426581f4308fb5c55076","personName":"高红","personOrder":"1"},{"personId":"098b98ec79544808973f7da00c699d7b","personName":"巴玉华","personOrder":"1"}]}
+
+2020-09-08 09:21:28.816000 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-09-08 09:21:28.822500 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"6117659bbcd4426581f4308fb5c55076","personName":"高红","personOrder":"1"}]}
+
+2020-09-08 09:21:28.893000 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"faf6b12894df4e068b576dbefbc7df2d","personName":"彭琳","personOrder":"2"}]}
+
+2020-09-08 09:21:28.942000 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-09-08 09:21:29.035500 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"6117659bbcd4426581f4308fb5c55076","personName":"高红","personOrder":"1"}]}
+
+2020-09-08 09:21:29.258000 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-09-08 09:21:29.272500 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-09-08 09:21:29.331500 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"faf6b12894df4e068b576dbefbc7df2d","personName":"彭琳","personOrder":"2"},{"personId":"5e8b1a5336cf43f2aef440b10ad41178","personName":"李玲","personOrder":"3"}]}
+
+2020-09-08 09:21:29.362500 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"6117659bbcd4426581f4308fb5c55076","personName":"高红","personOrder":"1"},{"personId":"098b98ec79544808973f7da00c699d7b","personName":"巴玉华","personOrder":"1"}]}
+
+2020-09-08 09:21:29.552000 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-09-08 09:21:29.556500 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-09-08 09:21:29.640000 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-09-08 09:21:29.650000 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-09-08 09:21:29.731500 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"6117659bbcd4426581f4308fb5c55076","personName":"高红","personOrder":"1"},{"personId":"098b98ec79544808973f7da00c699d7b","personName":"巴玉华","personOrder":"1"}]}
+
+2020-09-08 09:21:29.741000 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"faf6b12894df4e068b576dbefbc7df2d","personName":"彭琳","personOrder":"2"},{"personId":"5e8b1a5336cf43f2aef440b10ad41178","personName":"李玲","personOrder":"3"}]}
+
+2020-12-07 14:35:16.426914 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"00f08259038141e5a0f815b0ccf573a1"}}
+
+2020-12-07 14:35:16.526914 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"8a3e1ccc13a946f19a3e854816a50e6d","name":"许丽","showOrder":71,"meetingDeptId":"1","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"38455c8dd3b744fe9d25c06f3f9848d6","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-07 14:35:16.640914 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"30e6b502466642a39ee2cd1ced376845","name":"路建国","showOrder":72,"meetingDeptId":"1","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"db4c778741d848daba6f9c5385938bc7","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-07 14:41:23.477914 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"8a3e1ccc13a946f19a3e854816a50e6d","personName":"许丽","personOrder":"14"},{"personId":"30e6b502466642a39ee2cd1ced376845","personName":"路建国","personOrder":"15"}]}
+
+2020-12-07 14:41:23.570914 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"8a3e1ccc13a946f19a3e854816a50e6d","personName":"许丽","personOrder":"14"}]}
+
+2020-12-07 14:41:23.710914 会议状态置为进行中
+{"result":-1,"message":"服务器内部错误，请联系管理员"}
+
+2020-12-07 14:41:23.795914 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"8a3e1ccc13a946f19a3e854816a50e6d","personName":"许丽","personOrder":"14"}]}
+
+2020-12-07 14:41:23.929914 会议状态置为已结束
+{"result":-1,"message":"服务器内部错误，请联系管理员"}
+
+2020-12-07 14:41:24.045914 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"8a3e1ccc13a946f19a3e854816a50e6d","personName":"许丽","personOrder":"14"},{"personId":"30e6b502466642a39ee2cd1ced376845","personName":"路建国","personOrder":"15"}]}
+
+2020-12-07 14:41:24.277914 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-12-07 14:41:24.368914 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-12-07 14:41:24.448914 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"8a3e1ccc13a946f19a3e854816a50e6d","personName":"许丽","personOrder":"14"},{"personId":"30e6b502466642a39ee2cd1ced376845","personName":"路建国","personOrder":"15"}]}
+
+2020-12-07 16:10:31.619914 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"f5b02f301c1b4b9e9e9ad4d0d1472640"}}
+
+2020-12-07 16:10:31.705914 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"613ebcff772e4300aa3aea7664e33fa4","name":"刘彬","showOrder":72,"meetingDeptId":"fee0ceb30c7e44a4bb44b287f68e032f","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"3b8f9069f89446a6941f0947d71021c2","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-07 16:10:31.812914 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"39feef08473b41f194c37a5429571f8f","name":"萧楠","showOrder":73,"meetingDeptId":"fee0ceb30c7e44a4bb44b287f68e032f","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"6769a15e8d6142739e93572aab5047d5","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-07 16:15:48.283914 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"613ebcff772e4300aa3aea7664e33fa4","personName":"刘彬","personOrder":"1"},{"personId":"39feef08473b41f194c37a5429571f8f","personName":"萧楠","personOrder":"2"}]}
+
+2020-12-07 16:15:48.373914 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"613ebcff772e4300aa3aea7664e33fa4","personName":"刘彬","personOrder":"1"}]}
+
+2020-12-07 16:15:48.499914 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-12-07 16:15:48.590914 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"613ebcff772e4300aa3aea7664e33fa4","personName":"刘彬","personOrder":"1"}]}
+
+2020-12-07 16:15:48.837914 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-12-07 16:15:48.934914 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"613ebcff772e4300aa3aea7664e33fa4","personName":"刘彬","personOrder":"1"},{"personId":"39feef08473b41f194c37a5429571f8f","personName":"萧楠","personOrder":"2"}]}
+
+2020-12-07 16:15:49.158914 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-12-07 16:15:49.247914 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-12-07 16:15:49.364914 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"613ebcff772e4300aa3aea7664e33fa4","personName":"刘彬","personOrder":"1"},{"personId":"39feef08473b41f194c37a5429571f8f","personName":"萧楠","personOrder":"2"}]}
+
+2020-12-08 14:43:46.068401 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"e34013f3feff423187be143e98011679"}}
+
+2020-12-08 14:43:46.177401 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"6ddd7a65c538406292a560c1bbc79190","name":"俞凤兰","showOrder":105,"meetingDeptId":"fee0ceb30c7e44a4bb44b287f68e032f","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"6c25820b17a947febb12400502b21472","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-08 14:43:46.257401 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"46ccd7bd7aa64fe0b388d1dd935a372b","name":"李超","showOrder":106,"meetingDeptId":"fee0ceb30c7e44a4bb44b287f68e032f","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"7d954821cef9493583aa9b32c9987876","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-08 14:47:56.764401 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"6ddd7a65c538406292a560c1bbc79190","personName":"俞凤兰","personOrder":"26"},{"personId":"46ccd7bd7aa64fe0b388d1dd935a372b","personName":"李超","personOrder":"27"}]}
+
+2020-12-08 14:47:56.830401 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"6ddd7a65c538406292a560c1bbc79190","personName":"俞凤兰","personOrder":"26"}]}
+
+2020-12-08 14:47:56.943401 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-12-08 14:47:57.012401 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"6ddd7a65c538406292a560c1bbc79190","personName":"俞凤兰","personOrder":"26"}]}
+
+2020-12-08 14:47:57.383401 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-12-08 14:47:57.475401 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"6ddd7a65c538406292a560c1bbc79190","personName":"俞凤兰","personOrder":"26"},{"personId":"46ccd7bd7aa64fe0b388d1dd935a372b","personName":"李超","personOrder":"27"}]}
+
+2020-12-08 14:47:57.673401 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-12-08 14:47:57.741401 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-12-08 14:47:57.800401 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"6ddd7a65c538406292a560c1bbc79190","personName":"俞凤兰","personOrder":"26"},{"personId":"46ccd7bd7aa64fe0b388d1dd935a372b","personName":"李超","personOrder":"27"}]}
+
+2020-12-08 15:40:06.613401 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"5c53e66cc07a4c709fe6bbbddeeeb42d"}}
+
+2020-12-08 15:40:06.703401 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"6b25f6cac75a4d10823b978b065f2e4e","name":"周桂花","showOrder":71,"meetingDeptId":"31aebee38fcd49fb921fdab68230e1e3","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"46a091269f8c409e88b20a5bf7fe1873","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-08 15:40:06.793401 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"0eb30e1f1d93484aaf611ca96ee4726d","name":"廖梅","showOrder":72,"meetingDeptId":"31aebee38fcd49fb921fdab68230e1e3","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"172fd8742d4c4b0a99d5b9957ef60ddf","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-08 15:44:05.856401 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"6b25f6cac75a4d10823b978b065f2e4e","personName":"周桂花","personOrder":"2"},{"personId":"0eb30e1f1d93484aaf611ca96ee4726d","personName":"廖梅","personOrder":"3"}]}
+
+2020-12-08 15:44:05.932401 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"6b25f6cac75a4d10823b978b065f2e4e","personName":"周桂花","personOrder":"2"}]}
+
+2020-12-08 15:44:06.025401 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-12-08 15:44:06.098401 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"6b25f6cac75a4d10823b978b065f2e4e","personName":"周桂花","personOrder":"2"}]}
+
+2020-12-08 15:44:06.370401 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-12-08 15:44:06.453401 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"6b25f6cac75a4d10823b978b065f2e4e","personName":"周桂花","personOrder":"2"},{"personId":"0eb30e1f1d93484aaf611ca96ee4726d","personName":"廖梅","personOrder":"3"}]}
+
+2020-12-08 15:44:06.658401 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-12-08 15:44:06.748401 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-12-08 15:44:06.838401 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"6b25f6cac75a4d10823b978b065f2e4e","personName":"周桂花","personOrder":"2"},{"personId":"0eb30e1f1d93484aaf611ca96ee4726d","personName":"廖梅","personOrder":"3"}]}
+
+2020-12-09 16:44:32.513803 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"f13298cb352140079719865c005141aa"}}
+
+2020-12-09 16:44:32.615803 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"ae73f913191c405ba12c3ae4e9d9f14b","name":"张涛","showOrder":71,"meetingDeptId":"2e0d31a360144731a0899d8dd4b86cd3","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"f27d811b4ca147388dc1063d867fb8ae","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-09 16:44:32.690803 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"5ef7ed172a1f4f43953ea0b23c487b69","name":"赵海燕","showOrder":72,"meetingDeptId":"2e0d31a360144731a0899d8dd4b86cd3","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"2aa53c4359434279a804a9ffa4fa0291","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-09 16:50:08.684803 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"5f083ae901ae49e4a592bb208240b167"}}
+
+2020-12-09 16:50:08.745803 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"16cd79a530a349eaa13c2f3031ac627a","name":"崔云","showOrder":164,"meetingDeptId":"2e0d31a360144731a0899d8dd4b86cd3","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"9b5b9289f1794c9eb2445fbd0fa5e5c4","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-09 16:50:08.839803 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"936e46b7b38c4f118f6403f03371cc0f","name":"何阳","showOrder":165,"meetingDeptId":"2e0d31a360144731a0899d8dd4b86cd3","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"19ba3f245d50456aa2427e123f64c9f4","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-09 16:54:41.322803 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"16cd79a530a349eaa13c2f3031ac627a","personName":"崔云","personOrder":"84"},{"personId":"936e46b7b38c4f118f6403f03371cc0f","personName":"何阳","personOrder":"85"}]}
+
+2020-12-09 16:54:41.397803 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"16cd79a530a349eaa13c2f3031ac627a","personName":"崔云","personOrder":"84"}]}
+
+2020-12-09 16:54:41.466803 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-12-09 16:54:41.526803 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"16cd79a530a349eaa13c2f3031ac627a","personName":"崔云","personOrder":"84"}]}
+
+2020-12-09 16:54:41.780803 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-12-09 16:54:41.877803 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"16cd79a530a349eaa13c2f3031ac627a","personName":"崔云","personOrder":"84"},{"personId":"936e46b7b38c4f118f6403f03371cc0f","personName":"何阳","personOrder":"85"}]}
+
+2020-12-09 16:54:42.097803 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-12-09 16:54:42.170803 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-12-09 16:54:42.229803 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"16cd79a530a349eaa13c2f3031ac627a","personName":"崔云","personOrder":"84"},{"personId":"936e46b7b38c4f118f6403f03371cc0f","personName":"何阳","personOrder":"85"}]}
+
+2020-12-14 16:37:00.835202 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"d9307309093d471bb79c6331ca48951b"}}
+
+2020-12-14 16:37:00.913202 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"49db696cd15440cea8d01c71daabb49f","name":"邓兵","showOrder":71,"meetingDeptId":"b93174881fd34a4d9b01f6f613eeb34e","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"ce5887eae7df47c9883e6e5031a5d6d9","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-14 16:37:01.006802 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"0f5e051af667404294b0df062a39ddf0","name":"余文","showOrder":72,"meetingDeptId":"b93174881fd34a4d9b01f6f613eeb34e","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"017cda2383f742f099db7d14caad90a6","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-14 16:40:55.817403 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"49db696cd15440cea8d01c71daabb49f","personName":"邓兵","personOrder":"2"},{"personId":"0f5e051af667404294b0df062a39ddf0","personName":"余文","personOrder":"3"}]}
+
+2020-12-14 16:40:55.879803 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"49db696cd15440cea8d01c71daabb49f","personName":"邓兵","personOrder":"2"}]}
+
+2020-12-14 16:40:56.004603 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-12-14 16:40:56.082603 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"49db696cd15440cea8d01c71daabb49f","personName":"邓兵","personOrder":"2"}]}
+
+2020-12-14 16:40:56.394603 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-12-14 16:40:56.457003 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"49db696cd15440cea8d01c71daabb49f","personName":"邓兵","personOrder":"2"},{"personId":"0f5e051af667404294b0df062a39ddf0","personName":"余文","personOrder":"3"}]}
+
+2020-12-14 16:40:56.628603 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-12-14 16:40:56.691003 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-12-14 16:40:56.753403 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"49db696cd15440cea8d01c71daabb49f","personName":"邓兵","personOrder":"2"},{"personId":"0f5e051af667404294b0df062a39ddf0","personName":"余文","personOrder":"3"}]}
+
+2020-12-15 16:43:09.012341 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"b10d2a68ec0d41a093bf5490b99bec04"}}
+
+2020-12-15 16:43:09.108341 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"9913cc25f7774506998081efa5842650","name":"徐红梅","showOrder":81,"meetingDeptId":"b93174881fd34a4d9b01f6f613eeb34e","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"7544e02bc9684d609f3e0cbf66b39608","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-15 16:43:09.198341 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"b80a66ff49574f5a8daf0136cd7b0536","name":"张秀珍","showOrder":82,"meetingDeptId":"b93174881fd34a4d9b01f6f613eeb34e","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"f7517a72abe34eed90908eece889fb86","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-15 16:47:34.105341 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"9913cc25f7774506998081efa5842650","personName":"徐红梅","personOrder":"5"},{"personId":"b80a66ff49574f5a8daf0136cd7b0536","personName":"张秀珍","personOrder":"6"}]}
+
+2020-12-15 16:47:34.179341 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"9913cc25f7774506998081efa5842650","personName":"徐红梅","personOrder":"5"}]}
+
+2020-12-15 16:47:34.272341 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-12-15 16:47:34.364341 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"9913cc25f7774506998081efa5842650","personName":"徐红梅","personOrder":"5"}]}
+
+2020-12-15 16:47:34.665341 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-12-15 16:47:34.749341 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"9913cc25f7774506998081efa5842650","personName":"徐红梅","personOrder":"5"},{"personId":"b80a66ff49574f5a8daf0136cd7b0536","personName":"张秀珍","personOrder":"6"}]}
+
+2020-12-15 16:47:34.981341 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-12-15 16:47:35.055341 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-12-15 16:47:35.118341 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"9913cc25f7774506998081efa5842650","personName":"徐红梅","personOrder":"5"},{"personId":"b80a66ff49574f5a8daf0136cd7b0536","personName":"张秀珍","personOrder":"6"}]}
+
+2020-12-16 15:59:31.687236 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"590dfe271b0441e093b5bc8a8f722231"}}
+
+2020-12-16 15:59:31.797236 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"8ce2d210256f4b55b6823705856fb7e6","name":"蔡丹","showOrder":84,"meetingDeptId":"b93174881fd34a4d9b01f6f613eeb34e","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"856dfdec13784b49b3a9a2f034f2c4dc","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-16 15:59:31.905236 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"17c2812c75024adf9c5e82d497b827c8","name":"宋帆","showOrder":85,"meetingDeptId":"b93174881fd34a4d9b01f6f613eeb34e","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"cf5f17a5341c43f7821053cf6625f925","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-16 16:03:53.592236 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"8ce2d210256f4b55b6823705856fb7e6","personName":"蔡丹","personOrder":"8"},{"personId":"17c2812c75024adf9c5e82d497b827c8","personName":"宋帆","personOrder":"9"}]}
+
+2020-12-16 16:03:53.683236 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"8ce2d210256f4b55b6823705856fb7e6","personName":"蔡丹","personOrder":"8"}]}
+
+2020-12-16 16:03:53.777236 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-12-16 16:03:53.852236 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"8ce2d210256f4b55b6823705856fb7e6","personName":"蔡丹","personOrder":"8"}]}
+
+2020-12-16 16:03:54.088236 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-12-16 16:03:54.170236 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"8ce2d210256f4b55b6823705856fb7e6","personName":"蔡丹","personOrder":"8"},{"personId":"17c2812c75024adf9c5e82d497b827c8","personName":"宋帆","personOrder":"9"}]}
+
+2020-12-16 16:03:54.395236 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-12-16 16:03:54.457236 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-12-16 16:03:54.549236 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"8ce2d210256f4b55b6823705856fb7e6","personName":"蔡丹","personOrder":"8"},{"personId":"17c2812c75024adf9c5e82d497b827c8","personName":"宋帆","personOrder":"9"}]}
+
+2020-12-17 16:40:59.306403 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"fad6d9479c0f4205841ca4a2428af08d"}}
+
+2020-12-17 16:40:59.388403 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"7c44647a78b74a0f8846cd765df197d3","name":"王帆","showOrder":87,"meetingDeptId":"b93174881fd34a4d9b01f6f613eeb34e","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"fa09581d7473456f9c0a707acb4eb0e4","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-17 16:40:59.450403 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"185a420025264e8f9d1443b90792b2ef","name":"王辉","showOrder":88,"meetingDeptId":"b93174881fd34a4d9b01f6f613eeb34e","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"aade7435138c4588be532fbb232199ea","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-17 16:44:30.343403 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"7c44647a78b74a0f8846cd765df197d3","personName":"王帆","personOrder":"11"},{"personId":"185a420025264e8f9d1443b90792b2ef","personName":"王辉","personOrder":"12"}]}
+
+2020-12-17 16:44:30.419403 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"7c44647a78b74a0f8846cd765df197d3","personName":"王帆","personOrder":"11"}]}
+
+2020-12-17 16:44:30.547403 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-12-17 16:44:30.619403 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"7c44647a78b74a0f8846cd765df197d3","personName":"王帆","personOrder":"11"}]}
+
+2020-12-17 16:44:30.950403 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-12-17 16:44:31.036403 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"7c44647a78b74a0f8846cd765df197d3","personName":"王帆","personOrder":"11"},{"personId":"185a420025264e8f9d1443b90792b2ef","personName":"王辉","personOrder":"12"}]}
+
+2020-12-17 16:44:31.169403 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-12-17 16:44:31.247403 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-12-17 16:44:31.328403 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"7c44647a78b74a0f8846cd765df197d3","personName":"王帆","personOrder":"11"},{"personId":"185a420025264e8f9d1443b90792b2ef","personName":"王辉","personOrder":"12"}]}
+
+2020-12-21 17:03:19.056727 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"71449794daf24322941eb7033c2b2b9b"}}
+
+2020-12-21 17:03:19.150327 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"4ef61e44abac43cc8c57cbc09ca66654","name":"周玉兰","showOrder":93,"meetingDeptId":"b93174881fd34a4d9b01f6f613eeb34e","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"cabbcf9fa240420780d2b96afcfeeab0","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-21 17:03:19.243927 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"c89fb4c103a34e6ea90830990628011f","name":"王凤兰","showOrder":94,"meetingDeptId":"b93174881fd34a4d9b01f6f613eeb34e","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"00118147958d4c92967dde714b2353bd","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-21 17:07:30.171928 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"4ef61e44abac43cc8c57cbc09ca66654","personName":"周玉兰","personOrder":"17"},{"personId":"c89fb4c103a34e6ea90830990628011f","personName":"王凤兰","personOrder":"18"}]}
+
+2020-12-21 17:07:30.249928 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"4ef61e44abac43cc8c57cbc09ca66654","personName":"周玉兰","personOrder":"17"}]}
+
+2020-12-21 17:07:30.359128 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-12-21 17:07:30.452728 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"4ef61e44abac43cc8c57cbc09ca66654","personName":"周玉兰","personOrder":"17"}]}
+
+2020-12-21 17:07:30.811528 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-12-21 17:07:30.873928 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"4ef61e44abac43cc8c57cbc09ca66654","personName":"周玉兰","personOrder":"17"},{"personId":"c89fb4c103a34e6ea90830990628011f","personName":"王凤兰","personOrder":"18"}]}
+
+2020-12-21 17:07:31.061128 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-12-21 17:07:31.123528 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-12-21 17:07:31.185928 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"4ef61e44abac43cc8c57cbc09ca66654","personName":"周玉兰","personOrder":"17"},{"personId":"c89fb4c103a34e6ea90830990628011f","personName":"王凤兰","personOrder":"18"}]}
+
+2020-12-22 16:52:11.266402 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"663ba28accb6459199d31e98e641f5eb"}}
+
+2020-12-22 16:52:11.326402 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"4e8435a6fb1b4ebcae07daff7f1e19fb","name":"韦琳","showOrder":71,"meetingDeptId":"cd6fea49329842f6a30db96f43c3a8f1","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"753d13e80b7849e4acf9b70e80befc97","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-22 16:52:11.391402 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"07d76e853c724e999e71162658e4dd45","name":"陈琴","showOrder":72,"meetingDeptId":"cd6fea49329842f6a30db96f43c3a8f1","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"d72fb1555a30474288b2af4c6337d339","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-22 16:56:06.255402 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"4e8435a6fb1b4ebcae07daff7f1e19fb","personName":"韦琳","personOrder":"3"},{"personId":"07d76e853c724e999e71162658e4dd45","personName":"陈琴","personOrder":"4"}]}
+
+2020-12-22 16:56:06.327402 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"4e8435a6fb1b4ebcae07daff7f1e19fb","personName":"韦琳","personOrder":"3"}]}
+
+2020-12-22 16:56:06.394402 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-12-22 16:56:06.467402 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"4e8435a6fb1b4ebcae07daff7f1e19fb","personName":"韦琳","personOrder":"3"}]}
+
+2020-12-22 16:56:06.761402 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-12-22 16:56:06.858402 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"4e8435a6fb1b4ebcae07daff7f1e19fb","personName":"韦琳","personOrder":"3"},{"personId":"07d76e853c724e999e71162658e4dd45","personName":"陈琴","personOrder":"4"}]}
+
+2020-12-22 16:56:07.069402 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-12-22 16:56:07.159402 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-12-22 16:56:07.243402 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"4e8435a6fb1b4ebcae07daff7f1e19fb","personName":"韦琳","personOrder":"3"},{"personId":"07d76e853c724e999e71162658e4dd45","personName":"陈琴","personOrder":"4"}]}
+
+2020-12-29 16:54:59.306609 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"d2346b65d8534fa4ba236f33007feb60"}}
+
+2020-12-29 16:54:59.383609 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"721eee9e335e416695a0dd9091eb6451","name":"陈健","showOrder":88,"meetingDeptId":"cd6fea49329842f6a30db96f43c3a8f1","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"3c64eb3a81f243f8ab99b0f389022f18","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-29 16:54:59.482609 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"40c352a664244a2bbb3f01a402e11c86","name":"刘琳","showOrder":89,"meetingDeptId":"cd6fea49329842f6a30db96f43c3a8f1","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"03b4deb5dde540fabbb16184a9d9dc76","password":"","unitGuid":"","pwdStatus":false}]}
+
+2020-12-29 16:59:30.741609 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"721eee9e335e416695a0dd9091eb6451","personName":"陈健","personOrder":"11"},{"personId":"40c352a664244a2bbb3f01a402e11c86","personName":"刘琳","personOrder":"12"}]}
+
+2020-12-29 16:59:30.827609 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"721eee9e335e416695a0dd9091eb6451","personName":"陈健","personOrder":"11"}]}
+
+2020-12-29 16:59:30.903609 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2020-12-29 16:59:30.961609 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"721eee9e335e416695a0dd9091eb6451","personName":"陈健","personOrder":"11"}]}
+
+2020-12-29 16:59:31.194609 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2020-12-29 16:59:31.296609 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"721eee9e335e416695a0dd9091eb6451","personName":"陈健","personOrder":"11"},{"personId":"40c352a664244a2bbb3f01a402e11c86","personName":"刘琳","personOrder":"12"}]}
+
+2020-12-29 16:59:31.499609 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2020-12-29 16:59:31.596609 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2020-12-29 16:59:31.663609 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"721eee9e335e416695a0dd9091eb6451","personName":"陈健","personOrder":"11"},{"personId":"40c352a664244a2bbb3f01a402e11c86","personName":"刘琳","personOrder":"12"}]}
+
+2021-01-06 16:49:47.234446 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"b2f6275f2fcb46c087b8e4ac02a2be74"}}
+
+2021-01-06 16:49:47.341446 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"51f1f16eb9f946c38895298ab31a146a","name":"周彬","showOrder":72,"meetingDeptId":"f88679ae695a4e499181e31b262e3506","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"c2a02268ce6c4cc1857f9ca8be59bed4","password":"","unitGuid":"","pwdStatus":false}]}
+
+2021-01-06 16:49:47.428446 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"17155fa3eb6b4436b9648cfde0b730a0","name":"赖龙","showOrder":73,"meetingDeptId":"f88679ae695a4e499181e31b262e3506","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"e8c8c79350a2496eaf2712b4954f06a3","password":"","unitGuid":"","pwdStatus":false}]}
+
+2021-01-06 16:53:25.309446 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"51f1f16eb9f946c38895298ab31a146a","personName":"周彬","personOrder":"2"},{"personId":"17155fa3eb6b4436b9648cfde0b730a0","personName":"赖龙","personOrder":"3"}]}
+
+2021-01-06 16:53:25.381446 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"51f1f16eb9f946c38895298ab31a146a","personName":"周彬","personOrder":"2"}]}
+
+2021-01-06 16:53:25.452446 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2021-01-06 16:53:25.527446 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"51f1f16eb9f946c38895298ab31a146a","personName":"周彬","personOrder":"2"}]}
+
+2021-01-06 16:53:25.804446 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2021-01-06 16:53:25.897446 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"51f1f16eb9f946c38895298ab31a146a","personName":"周彬","personOrder":"2"},{"personId":"17155fa3eb6b4436b9648cfde0b730a0","personName":"赖龙","personOrder":"3"}]}
+
+2021-01-06 16:53:26.059446 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2021-01-06 16:53:26.111446 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2021-01-06 16:53:26.168446 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"51f1f16eb9f946c38895298ab31a146a","personName":"周彬","personOrder":"2"},{"personId":"17155fa3eb6b4436b9648cfde0b730a0","personName":"赖龙","personOrder":"3"}]}
+
+2021-01-07 16:48:29.624508 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"d0d77ed2dcdc4226ba8ab4150b4dd8f2"}}
+
+2021-01-07 16:48:29.733508 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"df046a4589ca492abe1f67f94349508e","name":"干丽","showOrder":81,"meetingDeptId":"f88679ae695a4e499181e31b262e3506","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"7a8caf554ef44d80a063c0a4618521b3","password":"","unitGuid":"","pwdStatus":false}]}
+
+2021-01-07 16:48:29.814508 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"c285987780f14a2f892d6188dee7ab94","name":"郑秀英","showOrder":82,"meetingDeptId":"f88679ae695a4e499181e31b262e3506","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"ea03511f41d34c3f8185ecb60fd0f4c7","password":"","unitGuid":"","pwdStatus":false}]}
+
+2021-01-07 16:52:25.599508 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"df046a4589ca492abe1f67f94349508e","personName":"干丽","personOrder":"5"},{"personId":"c285987780f14a2f892d6188dee7ab94","personName":"郑秀英","personOrder":"6"}]}
+
+2021-01-07 16:52:25.697508 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"df046a4589ca492abe1f67f94349508e","personName":"干丽","personOrder":"5"}]}
+
+2021-01-07 16:52:25.809508 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2021-01-07 16:52:25.914508 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"df046a4589ca492abe1f67f94349508e","personName":"干丽","personOrder":"5"}]}
+
+2021-01-07 16:52:26.199508 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2021-01-07 16:52:26.310508 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"df046a4589ca492abe1f67f94349508e","personName":"干丽","personOrder":"5"},{"personId":"c285987780f14a2f892d6188dee7ab94","personName":"郑秀英","personOrder":"6"}]}
+
+2021-01-07 16:52:26.492508 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2021-01-07 16:52:26.586508 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2021-01-07 16:52:26.659508 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"df046a4589ca492abe1f67f94349508e","personName":"干丽","personOrder":"5"},{"personId":"c285987780f14a2f892d6188dee7ab94","personName":"郑秀英","personOrder":"6"}]}
+
+2021-01-14 16:53:10.461308 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"cb22c10f85144bfbbae3642528131916"}}
+
+2021-01-14 16:53:10.570308 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"357055bfff584003a28324063d502af5","name":"罗飞","showOrder":84,"meetingDeptId":"f88679ae695a4e499181e31b262e3506","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"36d85b80cc7a4c00b45c480bcd984758","password":"","unitGuid":"","pwdStatus":false}]}
+
+2021-01-14 16:53:10.666308 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"78ce889525a54ee3938953c463350f9c","name":"黄秀荣","showOrder":85,"meetingDeptId":"f88679ae695a4e499181e31b262e3506","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"59259c7869f04832828acbe3a1fb17ac","password":"","unitGuid":"","pwdStatus":false}]}
+
+2021-01-14 16:57:04.296308 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"357055bfff584003a28324063d502af5","personName":"罗飞","personOrder":"8"},{"personId":"78ce889525a54ee3938953c463350f9c","personName":"黄秀荣","personOrder":"9"}]}
+
+2021-01-14 16:57:04.373308 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"357055bfff584003a28324063d502af5","personName":"罗飞","personOrder":"8"}]}
+
+2021-01-14 16:57:04.447308 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2021-01-14 16:57:04.521308 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"357055bfff584003a28324063d502af5","personName":"罗飞","personOrder":"8"}]}
+
+2021-01-14 16:57:04.810308 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2021-01-14 16:57:04.900308 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"357055bfff584003a28324063d502af5","personName":"罗飞","personOrder":"8"},{"personId":"78ce889525a54ee3938953c463350f9c","personName":"黄秀荣","personOrder":"9"}]}
+
+2021-01-14 16:57:05.108308 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2021-01-14 16:57:05.203308 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2021-01-14 16:57:05.279308 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"357055bfff584003a28324063d502af5","personName":"罗飞","personOrder":"8"},{"personId":"78ce889525a54ee3938953c463350f9c","personName":"黄秀荣","personOrder":"9"}]}
+
+2021-01-15 17:11:40.127606 创建一个会议并获取会议id
+{"result":0,"message":"success","map":{"meetingId":"4cef28ae860e440387561bc61fdc14fd"}}
+
+2021-01-15 17:11:40.224606 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"7f380f9253fd4b45891879cf5fe147d8","name":"金健","showOrder":87,"meetingDeptId":"f88679ae695a4e499181e31b262e3506","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"06404cac19894abdb4d4f55e28b7a530","password":"","unitGuid":"","pwdStatus":false}]}
+
+2021-01-15 17:11:40.311606 获取参会人id信息
+{"result":0,"message":"success","data":[{"id":"78f9c6b7ff5443e58678fcbf4e5c9316","name":"林桂兰","showOrder":88,"meetingDeptId":"f88679ae695a4e499181e31b262e3506","remark":"","entId":"d9085ddadaec4cec9f00dd6c3dc5e090","status":true,"meetingDeptName":"其他","loginState":false,"mqttTopic":"b109a8adb42e45069650373eb2a7b050","password":"","unitGuid":"","pwdStatus":false}]}
+
+2021-01-15 17:16:16.235606 1-输入待进行的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"7f380f9253fd4b45891879cf5fe147d8","personName":"金健","personOrder":"11"},{"personId":"78f9c6b7ff5443e58678fcbf4e5c9316","personName":"林桂兰","personOrder":"12"}]}
+
+2021-01-15 17:16:16.312606 2-输入待进行的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"7f380f9253fd4b45891879cf5fe147d8","personName":"金健","personOrder":"11"}]}
+
+2021-01-15 17:16:16.405606 会议状态置为进行中
+{"result":0,"message":"success"}
+
+2021-01-15 17:16:16.474606 3-输入进行中的会议ID、输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"7f380f9253fd4b45891879cf5fe147d8","personName":"金健","personOrder":"11"}]}
+
+2021-01-15 17:16:16.843606 会议状态置为已结束
+{"result":0,"message":"success"}
+
+2021-01-15 17:16:16.922606 4-输入已结束的会议ID、不输入会议人员名称获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"7f380f9253fd4b45891879cf5fe147d8","personName":"金健","personOrder":"11"},{"personId":"78f9c6b7ff5443e58678fcbf4e5c9316","personName":"林桂兰","personOrder":"12"}]}
+
+2021-01-15 17:16:17.133606 5-输入不存在的会议ID、不输入会议人员名称获取会议人员信息失败
+{"result":0,"message":"success","data":[]}
+
+2021-01-15 17:16:17.190606 6-不输入会议ID获取会议人员信息失败
+{"result":-1,"message":"会议Id不能为空"}
+
+2021-01-15 17:16:17.251606 7-超级管理员获取会议人员信息成功
+{"result":0,"message":"success","data":[{"personId":"7f380f9253fd4b45891879cf5fe147d8","personName":"金健","personOrder":"11"},{"personId":"78f9c6b7ff5443e58678fcbf4e5c9316","personName":"林桂兰","personOrder":"12"}]}
+
